@@ -14,7 +14,24 @@ export interface ContextCategory extends NodeCategory {
 }
 
 
-export function hello(): string {
-  return 'Hello world!';
-}
+export class NodeDefinition {
+  id = 0;
+  name = '';
+  iconName = '';
+  explanation = '';
+  hyphenatedName = '';
 
+  contextCat: ContextCategory;
+  roleCat: RoleCategory;
+  isCustom: boolean;
+
+  constructor(
+    contextCat: ContextCategory,
+    roleCat: RoleCategory,
+    isCustom = true,
+  ) {
+    this.contextCat = contextCat;
+    this.roleCat = roleCat;
+    this.isCustom = isCustom;
+  }
+}
