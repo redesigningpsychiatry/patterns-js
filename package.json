@@ -1,5 +1,5 @@
 {
-  "name": "patterns",
+  "name": "@redesigningpsychiatry/patterns",
   "version": "1.0.0",
   "description": "Redesigning Psychiatry pattern specification",
   "main": "./lib/index.js",
@@ -17,5 +17,8 @@
   "homepage": "https://github.com/redesigningpsychiatry/patterns-js#readme",
   "devDependencies": {
     "typescript": "^4.5.4"
+  },
+  "publishConfig": {
+    "access": "public"
   }
 }
