@@ -21,17 +21,9 @@ export class NodeDefinition {
   explanation = '';
   hyphenatedName = '';
 
-  contextCat: ContextCategory;
-  roleCat: RoleCategory;
-  isCustom: boolean;
-
   constructor(
-    contextCat: ContextCategory,
-    roleCat: RoleCategory,
-    isCustom = true,
-  ) {
-    this.contextCat = contextCat;
-    this.roleCat = roleCat;
-    this.isCustom = isCustom;
-  }
+    public contextCat: ContextCategory,
+    public roleCat: RoleCategory,
+    public isCustom = true,
+  ) {}
 }
