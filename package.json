@@ -1,6 +1,6 @@
 {
   "name": "@redesigningpsychiatry/patterns",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "Redesigning Psychiatry pattern specification",
   "main": "./lib/index.js",
   "types": "./lib/index.d.ts",
